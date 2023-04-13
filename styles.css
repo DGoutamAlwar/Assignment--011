@@ -1,0 +1,44 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+:root
+{
+    --table-bg-color: #F0F5F9;
+    --table-header-bg-color:#BFACE2;
+}
+.table-container
+{
+    margin: auto;
+    width: 50vw;
+}
+.table
+{
+    width: 100%;
+    background-color: var(--table-bg-color);
+    text-align: center;
+    border-collapse: collapse;
+}
+.table-header
+{
+    background-color:var(--table-header-bg-color);
+    height: 90px;
+    font-size: 21px;
+}
+.table-body tr:nth-child(even)
+{
+    background-color: #d8dffe;
+}
+#myInput {
+    background-position: 10px 10px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+    border-radius: 23px;
+    margin-top: 6vh;
+    width: 91%;
+    outline: none;
+  }
